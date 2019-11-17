@@ -9,9 +9,20 @@
 </head>
 
 <body>
-    <?php
-    echo date('Y-m-d H:i:s');
-    ?>
+    <h1>Web</h1>
+    <ol>
+        <li><a href="index.php?id=HTML">HTML</a></li>
+        <li><a href="index.php?id=CSS">CSS</a></li>
+        <li><a href="index.php?id=JavaScript">JavaScript</a></li>
+    </ol>
+
+    <h2>
+        <?php
+            echo $_GET['id'];
+        ?>
+    </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus natus illo accusantium ipsa. Itaque velit fugiat, laudantium iure harum illum quis omnis blanditiis quibusdam libero esse voluptatem consectetur temporibus quia!</p>
+
 </body>
 
 </html>
