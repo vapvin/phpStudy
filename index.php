@@ -21,7 +21,12 @@
             echo $_GET['id'];
         ?>
     </h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus natus illo accusantium ipsa. Itaque velit fugiat, laudantium iure harum illum quis omnis blanditiis quibusdam libero esse voluptatem consectetur temporibus quia!</p>
+    <p>
+        <?php
+            $files = file_get_contents("data/".$_GET['id']);
+            echo $files;
+        ?>
+    </p>
 
 </body>
 
