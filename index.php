@@ -18,13 +18,20 @@
 
     <h2>
         <?php
-            echo $_GET['id'];
+           if(isset($_GET['id'])) {
+               echo $_GET['id'];
+           } else {
+               echo "Welcome";
+           }
         ?>
     </h2>
     <p>
         <?php
-            $files = file_get_contents("data/".$_GET['id']);
-            echo $files;
+            if(isset($_GET['id'])){
+                echo file_get_contents("data/".$_GET['id']);
+            } else {
+                echo "Hello World";
+            }
         ?>
     </p>
 
