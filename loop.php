@@ -22,6 +22,14 @@
             echo $j."<br>";
         }
     ?>
+
+    <?php
+        for($k = 1; $k <= 9; $k++){
+            for($l = 1; $l <= 9; $l++){
+                echo "$k X $l =".$k*$l."<br>";
+            }
+        }
+    ?>
     
 </body>
 </html>

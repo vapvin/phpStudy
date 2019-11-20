@@ -17,9 +17,6 @@
         array_push($arr,"ABC");
 
         var_dump(count($arr));
-
-        
-
     ?>
 </body>
 </html>
