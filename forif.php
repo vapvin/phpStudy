@@ -14,6 +14,7 @@
         <li><a href="index.php?id=HTML">HTML</a></li>
         <li><a href="index.php?id=CSS">CSS</a></li>
         <li><a href="index.php?id=JavaScript">JavaScript</a></li>
+        <li><a href="index.php?id=KIM">KIM</a></li>
     </ol>
 
     <h2>
@@ -34,6 +35,8 @@
             }
         ?>
     </p>
+
+
 
 </body>
 
