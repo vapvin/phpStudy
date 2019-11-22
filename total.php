@@ -53,5 +53,26 @@
             echo "Hello".$_GET["id"];
             
         ?>
+
+    <h1>1+1</h1>
+
+        <?php
+        echo 1 + 1;
+        ?>
+        <h1>2-1</h1>
+        <?php
+        echo 2 - 1;
+        ?>
+
+    <?php
+        $arr = array('a','b','c','d','e','f');
+        echo $arr[0].'<br>';
+        echo $arr[1].'<br>';
+
+        array_push($arr,"ABC");
+
+        var_dump(count($arr));
+    ?>
+        
     </body>
 </html>
